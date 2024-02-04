@@ -1,0 +1,62 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    link(rel='stylesheet' href='From.css')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap' rel='stylesheet')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Poppins&display=swap' rel='stylesheet')
+    title Registration Form
+    .overlay
+      .alert-con
+      .popup
+        h2 Enter your details here
+        form.form
+          h3.label Full Name
+          .boxes
+            .box--ff
+              .box.box--name
+                input.input-text.input--name.fname(type='text')
+              .name--ff
+                h5  First Name
+                  
+            .box--mf
+              .box.box--name
+                input.input-text.input--name.mname(type='text')
+              h5 Middle Name
+            .box--lf
+              .box.box--name
+                input.input-text.input--name.sname(type='text')
+              .name--ff
+                h5  Last Name
+                  
+          h3.label Phone Number
+          .box
+            input.input-text.phone(type='text')
+          h3.label Email id
+          .box
+            input.input-text.email(type='text')
+          h3.date-of-birth Enter your date of birth:
+          .dayofbirth
+            .daychoser
+              h3 Date of birth
+              .Date
+                span.group.group--year
+                  label(for='year') Year:
+                  select#year.options(name='year')
+                span.group.group--month
+                  label.options(for='month') Month:
+                  select#month.options(name='month')
+                span.group.group--day
+                  label(for='day') day:
+                  select#day.options(name='day')
+              h3.label Password
+              .box
+                input.input-text.password(type='password')
+                
+          .btn--box
+            button.btn.btn--submit Submit
+    script(src="js/bundle.js") 

@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: 'Playfair Display', serif;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(91, 112, 131, 0.4); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.popup {
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.image-section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.sign-up{
+  margin-top:40px;
+  color: gray;
+}
+
+.box{
+    border:1px solid grey;
+    background-color:white;
+    color: gray;
+    margin:10px;
+    padding:0 ;
+    display: flex;
+    width:37vw;
+}
+.input-text{
+    outline: none;
+    border: 0px;
+    height: 2vw;
+    width:40vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.input-text:focus{
+    outline: none;
+    border:none;
+}
+.siginoption{
+    width:30vw;
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+}
+#next{
+    width: 30vw;
+}
+.dayofbirth{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row ;
+    width:600px;
+    margin:10px;
+}
+
+  .options{
+   outline: none;
+   border: none;
+  }
+  .date-of-birth{
+    margin:10px;
+  }
+  .group{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border:0.8px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+  }
+#form{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+.group--month{
+    width:18vw;
+    background-color: white;
+}
+.group--day{
+    width: 10vw;
+    background-color: white;
+}
+.group--year{
+    width:8vw;
+    background-color: white;
+}
+
+.daychoser{
+    display: flex;
+    flex-direction: column;
+}
+.Date{
+    display: flex;
+    
+}
+.btn{
+
+    background-color: white;
+    color:black;
+    width: 35vw;
+    height:6vh;
+    border-radius: 20px;
+    margin:10px;
+}
+.label{
+    margin:10px
+}
+.boxes{
+    display: flex;
+}
+.box--name{
+    width:11.5vw;
+    
+    margin-left: 8px;
+}
+.input--name{
+    width:9vw;
+}
+.box--ff{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;    
+}
+.box--lf{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.name--ff{
+    margin-left: 8px ;
+}
+.btn--box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert--success{
+    background-color:rgb(80, 172, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert--error{
+    background-color: rgb(208, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="password"] {
+    -webkit-text-security: square;
+}
+form.show-passwords input[type="password"] {
+    -webkit-text-security: none;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.password{
+    width:34vw;
+}
